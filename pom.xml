@@ -7,6 +7,7 @@
         <module>infrastructure</module>
         <module>service</module>
     </modules>
+<!--           这是总的pom文件，不用做实际底层代码编写，所以该pom文件被打包成pom文件类型，以下的子类可以直接使用该pom文件引入的依赖-->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
